@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<script src="js/j.js"></script>
+		<script src="js/budget.js"></script>
+		<link rel="stylesheet" href="css/budget.css">
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		</head>
+		<body>
+		<div class="container">
+			<h1 class=" text-primary" style="font-family: Mali,'Cursive';margin-bottom:20px;">Budget App</h1>
+			<div class="row">
+				<div class="col-md-5" id="bud">	
+					<form>
+					<p style="margin-top: 25px;">Please Enter your Budget</p>
+					<input type="text" placeholder="For eg . 3000 " id="myBud"/><br/><br/>
+					<input type="button" id="myBtn" value ="Calculate" class="btn btn-default"/><br/><br/>
+				</form>
+				</div>
+				<div class="col-md-7">
+					<div class="row" id="cal">
+						<div class="col-md-4">
+							<p>BUDGET</p>
+							<center><img src="img/note.jpg" style="width: 52%;height: 100px;"></center>
+							<p class="expense" style="color: red;font-size: 40px;">$0</p>
+						</div>
+						<div class="col-md-4">
+							<p>EXPENSES</p>
+							<center><h1 style="font-size: 60px;margin-top: 38px;"><i class="fa fa-credit-card" id="credit"></i></h1></center>
+							<p class="expense1" style="color: red;font-size: 40px;">$0</p>
+						</div>
+						<div class="col-md-4">
+							<p>BALANCE</p>
+							<center><img src="img/dollar.jpg" style="width: 52%;height: 100px;"></i></h1></center>
+							<p class="expense2" style="color: red;font-size: 40px;">$0</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-5" id="bud1">
+				<form>	
+					<p>Please Enter your Expense</p>
+					<input type="text" placeholder ="For eg. Grocery "id="myExp"/><br/><br/>
+					<p>Please Enter Expense Amount</p>
+					<input type="text" placeholder ="For eg. 200"id="myExp1"/><br/><br/>
+					<input type="button" id="myBtn2" value ="Add" class="btn btn-default"/>
+					<input type="button" id="myBtn1" value ="Calculate" class="btn btn-default"/><br/><br/>
+				</form>
+				</div>
+				<div class="col-md-7">
+					<div class="row dataend">
+						<div class="col-md-6 dataend1">
+							<p>Expense Title</p>
+						</div>
+						<div class="col-md-6 dataend2">
+							<p>Expense Value</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

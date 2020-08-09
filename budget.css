@@ -1,0 +1,65 @@
+#bud
+{
+	border:1.5px solid green;
+	box-shadow: 2px 2px 2px gray;
+	height: 220px;
+}
+#bud p
+{
+	font-family: Calibri;
+	font-size: 22px;
+}
+#myBud
+{
+	width:90%;
+}
+#myBtn
+{
+	border: 1px solid green;
+	box-shadow: 2px 2px 2px gray;
+}
+#myExp
+{
+	width:90%;
+}
+#myExp1
+{
+	width:90%;
+}
+#bud1
+{
+	border:1.5px solid #ff0000a6;
+	box-shadow: 2px 2px 2px gray;
+}
+#bud1 p
+{
+	font-family: Calibri;
+	font-size: 22px;
+}
+#myBtn1
+{
+	border: 1px solid #ff0000a6;
+	box-shadow: 2px 2px 2px gray;
+}
+#myBtn2
+{
+	border: 1px solid #ff0000a6;
+	box-shadow: 2px 2px 2px gray;
+}
+#cal p
+{
+	text-align: center;
+	font-size: 24px;
+	font-family: Calibri;
+}
+#credit
+{
+	width: 100%;
+	color: darkblue;	
+}
+.dataend
+{
+	text-align: center;
+	font-size: 22px;
+	font-family: Calibri;
+}
