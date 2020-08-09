@@ -8,6 +8,5 @@
 - JQUERY
 - BOOTSTRAP
 
-## The website is live at 
-[click here](https://muskan18.github.io/Budget-Calculator/)
+
 
